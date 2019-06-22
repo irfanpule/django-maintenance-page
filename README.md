@@ -37,7 +37,7 @@ MIDDLEWARE = [
 ```
 
 Add `MAINTENANCE = True` on your `settings.py` to activate maintenance page
-![maintenance page](https://raw.githubusercontent.com/irfanpule/django-maintenance-page/master/screenshot/default-maintenance-page.png)
+![maintenance page](https://raw.githubusercontent.com/irfanpule/django-maintenance-page/master/maintenance/screenshot/default-maintenance-page.png)
 
 ## Customize page information
 You can custom information `title`, `description` and `signature` by adding `MAINTENANCE_TEMPLATE_DATA` in `settings.py`. It's support html writing.
@@ -49,7 +49,7 @@ MAINTENANCE_TEMPLATE_DATA = {
     "signature": "Tim Perawatan"
 }
 ```
-![customize page](https://raw.githubusercontent.com/irfanpule/django-maintenance-page/master/screenshot/customize-maintenante-page.png)
+![customize page](https://raw.githubusercontent.com/irfanpule/django-maintenance-page/master/maintenance/screenshot/customize-maintenante-page.png)
 
 ## Change maintenance page
 You can change maintenance page by adding `URL_MAINTENANCE`. Fill in `"app_name:url_name"`
